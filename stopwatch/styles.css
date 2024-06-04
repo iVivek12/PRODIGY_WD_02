@@ -1,0 +1,64 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    background-image:url('https://t4.ftcdn.net/jpg/06/55/21/17/360_F_655211786_xVSxad1CQ4r9UfnJBb6uYj5yqSFjeOmh.jpg');
+    background-size:90%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.stopwatch {
+    width: 800px;
+    padding: 20px;
+    background-color: #939391;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.768);
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #af9d4c;
+    border:2px solid rgb(94, 76, 20);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #502f06;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #bbb;
+}
